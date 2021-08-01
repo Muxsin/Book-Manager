@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <section class="sidebar">
+            <section class="header">
+                <h1>Book<span>Manager</span></h1>
+                <img src="img/leaf.png" alt="leaf" class="leaf">
+            </section>
+            <section class="categories">
+                <div>
+                    <h1>Categories</h1>
+                    <div class="item">
+                        <ul>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                            <li>
+                                <p>Text to your friend</p>
+                                <h2>Message</h2>
+                            </li>
+                            <li style="float:right"><i class="fa fa-star not-fill" aria-hidden="true"></i></li>
+                          </ul>
+                    </div>
+                    <div class="item">
+                        <ul>
+                            <li><i class="fa fa-pie-chart" aria-hidden="true"></i></li>
+                            <li>
+                                <p>All your books in one place</p>
+                                <h2>Your bookroom</h2>
+                            </li>
+                            <li style="float:right;"><i class="fa fa-star not-fill" aria-hidden="true"></i></li>
+                          </ul>
+                    </div>
+                    <div class="item">
+                        <ul>
+                            <li><i class="fa fa-calendar-o" aria-hidden="true"></i></li>
+                            <li>
+                                <p>Create your own shedule</p>
+                                <h2>Shedules</h2>
+                            </li>
+                            <li style="float:right"><i class="fa fa-star not-fill" aria-hidden="true"></i></li>
+                          </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="storage">
+                <div>
+                    <label for="file">Storage</label>
+                    <progress id="file" value="50" max="100" style="width: 100px; height: 8px; "> 50% </progress>
+                    <p>50%</p>
+                </div>
+            </section>
+        </section>
+        <section class="display">
+            <nav>
+                <section>
+                    <div class="box">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="search" name="search" id="search" placeholder="Serch book">
+                    </div>
+                </section>
+                <ul>
+                    <li>
+                        <img src="img/notification.png" alt="" width="20px" class="bell">
+                        <div class="circle"></div>
+                    </li>
+                    <li>
+                        <p>Shokirov Muhsin</p>
+                        <p>
+                            <img src="img/profile-man.jpg" alt="man-profile" width="40px" height="40px" class="profile-pic">
+                        </p>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <section class="leftbar">
+                    <section class="header">
+                        <h1>Projects</h1>
+                        <a href="">View all ></a>
+                    </section>
+                    <section class="projects">
+                        <div class="item" id="project-item">
+                            <!-- <i class="fa fa-folder" aria-hidden="true"></i> -->
+                            <i class="fa fa-folder-o" aria-hidden="true"></i>
+                            <h2>Lightpaper</h2>
+                            <p>PDF|8 Pages</p>
+                            <a href="">read</a>
+                        </div>
+                        <div class="item" id="project-item">
+                            <i class="fa fa-folder-o" aria-hidden="true"></i>
+                            <h2>Whitepaper</h2>
+                            <p>PDF|8 Pages</p>
+                            <a href="">read</a>
+                        </div>
+                        <div class="add-item">
+                            <div>
+                                <button><i class="fa fa-plus"></i></button>
+                                <p>Add new project</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Popular downloaded books</h1>
+                        <section class="books">
+                            <div>
+                                <h2>The Pavilia Hill</h2>
+                                <p>Montevideo</p>
+                                <p>14:30</p>
+                                <p><i class="fa fa-angle-right" style="font-weight: 700;"></i></p>
+                                <button><i class="fa fa-download" aria-hidden="true"></i></button>
+                            </div>
+                            <div>
+                                <h2>UX Design Book</h2>
+                                <p>Singapore</p>
+                                <p>14:30</p>
+                                <p><i class="fa fa-angle-right" style="font-weight: 700;"></i></p>
+                                <button><i class="fa fa-download" aria-hidden="true"></i></button>
+                            </div>
+                            <div>
+                                <h2>Branding Design</h2>
+                                <p>Las Vegas</p>
+                                <p>14:30</p>
+                                <p><i class="fa fa-angle-right" style="font-weight: 700;"></i></p>
+                                <button><i class="fa fa-download" aria-hidden="true"></i></button>
+                            </div>
+                        </section>
+                    </section>
+                    <section class="books-date">
+                        <button>Today</button>
+                        <button>Week</button>
+                        <button>Month</button>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Use Cases</a></li>
+                            <li><a href="">Whitepaper</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </footer>
+                </section>
+                <section class="rightbar">
+                    <h1>Try it now</h1>
+                    <p>BookManager invites you to enter <br> a new age decentralized storage</p>
+                    <div class="stars">
+                        <i class="fa fa-star fill" aria-hidden="true"></i>
+                        <i class="fa fa-star fill" aria-hidden="true"></i>
+                        <i class="fa fa-star fill" aria-hidden="true"></i>
+                        <i class="fa fa-star fill" aria-hidden="true"></i>
+                        <i class="fa fa-star not-fill" aria-hidden="true"></i>
+                        <p>1238 rewiew</p>
+                    </div>
+                    <button>Join beta version</button>
+                    <img src="img/reading-woman.png" alt="man" class="man-picture">
+                </section>
+            </main>
+        </section>
+    </section>
+
+    <script src="js/scripte.js"></script>
+</body>
+</html>
